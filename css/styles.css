@@ -1,0 +1,194 @@
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: whitesmoke;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto; /* Ajusta el valor del margen superior según sea necesario */
+    padding: 0 10px;
+}    
+
+.header {
+    margin-top: 10px; /* Ajusta el valor del margen superior según sea necesario */
+}
+
+
+/* Estilos del landing */
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column; /* Alineación vertical */
+}
+
+.avatar-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 0px;
+    background-color: white; /* Agrega un fondo blanco al contenedor */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.avatar {
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    max-width: 940px; /* Ajusta el ancho máximo */
+    margin: 10px auto; /* Aumenta el margen superior e inferior */
+    text-align: center; /* Centra el texto */
+    line-height: 1.5; /* Espaciado entre líneas */
+    font-family: monospace; /* Aplica un tipo de texto de consola */
+}
+
+
+.name {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.2em;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px; /* Agrega un poco de espacio alrededor de los enlaces */
+}
+
+.nav-links li a:hover {
+    border-radius: 20px; /* Forma ovalada */
+    background-color: #6c5ce7; /* Color morado */
+    color: #fff; /* Texto blanco */
+}
+
+/* Estilos de las secciones */
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #6c5ce7;
+    text-align: center; /* Centra el título */
+}
+
+.section-description {
+    font-size: 1.2em;
+}
+
+/* Estilos de los posts */
+.post {
+    margin-bottom: 40px;
+}
+
+.post h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.post p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Estilos del portafolio */
+.portfolio-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+.portfolio-item h3 {
+    font-size: 1.2em;
+}
+
+.portfolio-item a {
+    display: block;
+    margin-top: 10px;
+    color: #6c5ce7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.portfolio-icon {
+    width: 100px; /* Tamaño de la imagen */
+    height: auto;
+    margin-bottom: 7px; /* Espacio entre la imagen y el texto */
+}
+
+.portfolio-item:hover .portfolio-icon {
+    filter: brightness(50%); /* Reducción del brillo */
+}
+
+.posts {
+    background-color: whitesmoke; /* Cambia el color de fondo */
+    padding: 50px 0; /* Añade espacio interno */
+}
+
+.post {
+    background-color: #fff; /* Color de fondo */
+    padding: 20px; /* Añade espacio interno */
+    margin-bottom: 30px; /* Aumenta el margen inferior */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.post h3 {
+    font-size: 1.5em; /* Ajusta el tamaño del título */
+    margin-bottom: 10px; /* Aumenta el margen inferior */
+    color: #6c5ce7; /* Color morado */
+}
+
+.post p {
+    font-size: 1em; /* Ajusta el tamaño del texto */
+    color: #333; /* Color del texto */
+}
+
+
+.footer {
+    text-align: center; /* Centra el contenido */
+    background-color: #6c5ce7; /* Color morado */
+    color: #fff; /* Texto blanco */
+    padding: -10px 0; /* Añade espacio interno */
+    position: fixed; /* Fija el pie de página en la parte inferior */
+    width: 100%; /* Ancho completo */
+    bottom: 0; /* Ajusta la posición */
+    left: 0;
+}
